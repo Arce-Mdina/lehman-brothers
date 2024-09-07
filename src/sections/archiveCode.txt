@@ -1,0 +1,76 @@
+const [foundingOverlay, setFoundingOverlay] = useState(false)
+
+  {/* Founding */}
+  const openFoundingOverlay = () => {
+    setFoundingOverlay(true);
+  }
+
+  const closeFoundingOverlay = () => {
+    setFoundingOverlay(false);
+  }
+
+  const [expansionOverlay, setExpansionOverlay] = useState(false)
+
+  {/* Expansion */}
+  const openExpansionOverlay = () => {
+    setExpansionOverlay(true);
+  }
+
+  const closeExpansionOverlay = () => {
+    setExpansionOverlay(false);
+  }
+
+  const [worldWarOverlay, setWorldWarOverlay] = useState(false)
+
+  {/* WorldWar */}
+  const openWorldWarOverlay = () => {
+    setWorldWarOverlay(true);
+  }
+
+  const closeWorldWarOverlay = () => {
+    setWorldWarOverlay(false);
+  }
+
+  const [postWarOverlay, setPostWarOverlay] = useState(false)
+
+  {/* PostWar */}
+  const openPostWarOverlay = () => {
+    setPostWarOverlay(true);
+  }
+
+  const closePostWarOverlay = () => {
+    setPostWarOverlay(false);
+  }
+
+  const [riseOverlay, setRiseOverlay] = useState(false)
+
+  {/* Rise */}
+  const openRiseOverlay = () => {
+    setRiseOverlay(true);
+  }
+
+  const closeRiseOverlay = () => {
+    setRiseOverlay(false);
+  }
+
+  const [collapseOverlay, setCollapseOverlay] = useState(false)
+
+  {/* Collapse */}
+  const openCollapseOverlay = () => {
+    setCollapseOverlay(true);
+  }
+
+  const closeCollapseOverlay = () => {
+    setCollapseOverlay(false);
+  }
+
+  const [aftermathOverlay, setAftermathOverlay] = useState(false)
+
+  {/* Aftermath */}
+  const openAftermathOverlay = () => {
+    setAftermathOverlay(true);
+  }
+
+  const closeAftermathOverlay = () => {
+    setAftermathOverlay(false);
+  }
