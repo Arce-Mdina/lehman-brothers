@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+import { Analytics } from "@vercel/analytics/react"
 
 import { BrowserRouter, useRoutes, Navigate } from 'react-router-dom'
 
@@ -51,6 +52,7 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
+        <Analytics />
         <ScrollToTop />
         <RouterConfig />
       </BrowserRouter>
