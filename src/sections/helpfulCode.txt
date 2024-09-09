@@ -1,0 +1,1 @@
+React default color: "#374a5aff"

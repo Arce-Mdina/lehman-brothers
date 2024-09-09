@@ -28,7 +28,7 @@ const Landing = () => {
         <h2 style={{ fontWeight: "normal", paddingBottom: "15px", fontFamily: "EB Garamond" }}>The tragic story of a banking superpower whose epic downfall ignited a global recession.</h2>
         <div className="title-btns">
           <button className="link-btn link-1" onClick={scrollToExplanation}>Learn more</button>
-          <button className="link-btn link-2" onClick={() => navigate('/collapse')}>Lehman's Collapse</button>
+          <button className="link-btn link-2" onClick={() => navigate('/collapse')} style={{ color: "black" }}>Lehman's Collapse</button>
         </div>
       </div>
 
@@ -50,7 +50,7 @@ const Landing = () => {
           }
           footer={
             <>
-              <button onClick={() => navigate('/data')} style={{ borderRadius: "15px", color: "black" }}>
+              <button onClick={() => navigate('/data')} style={{ borderRadius: "15px", color: "black", backgroundColor: "white" }}>
                 Look & interact with Lehman's statistics
               </button>
             </>
@@ -60,7 +60,7 @@ const Landing = () => {
         <Section 
           title="Background & Context"
           fontSize="1.9rem"
-          backgroundColor="#f5f5f5"
+          // backgroundColor="#f5f5f5"
           content={
             <>
               <p>
