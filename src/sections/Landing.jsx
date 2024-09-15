@@ -19,7 +19,7 @@ const Landing = () => {
   return (
     <div>
       <div className="header">
-        <img src="https://www.wikicorporates.org/mediawiki/images/thumb/3/31/Lehman-Brothers-stacked.svg/320px-Lehman-Brothers-stacked.svg.png" className="logo-img"/>
+        <img src="https://www.wikicorporates.org/mediawiki/images/thumb/3/31/Lehman-Brothers-stacked.svg/320px-Lehman-Brothers-stacked.svg.png" className="logo-img" alt="Lehman Brothers Logo"/>
         {/* <div>
           <h1>Lehman Brothers</h1>
         </div> */}
