@@ -54,6 +54,7 @@ const App = () => {
       <BrowserRouter>
         <Analytics />
         <ScrollToTop />
+        <div className="padding-top"></div>
         <RouterConfig />
       </BrowserRouter>
     </>
