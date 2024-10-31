@@ -138,7 +138,7 @@
   flex-direction: row;
   /* place-self: center; */
   /* align-self: center; */
-  margin:0 auto;
+  margin:auto;
 }
 
 .link-btn {
@@ -153,28 +153,24 @@
   cursor: pointer;
   text-decoration: none;
   transition: 0.3s ease-in;
-  
-}
-
-.dfas {
-  color: #c4c4c4;
 }
 
 .link-1 {
   color:white;
-  background-color: rgb(0, 134, 143);
+  background-color:rgb(2, 112, 92);
 }
 
 .link-1:hover {
-  background-color:rgb(0, 165, 176);
+  background-color:rgb(5, 140, 115);
 }
 
 .link-2 {
-  background-color:rgb(238, 238, 238);
+  transition: 0.3s ease-in;
 }
 
 .link-2:hover {
-  background-color:rgb(217, 217, 217);
+  color:black;
+  background-color:rgb(221, 221, 221);
 }
 
 
@@ -292,11 +288,11 @@
   }
 
   .link-1, .link-2 {
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:9px;
+    padding-bottom:9px;
     padding-left:17px;
     padding-right:17px;
-    border-radius:20px;
+    border-radius:17px;
     font-size:17px;
   }
 }
@@ -337,7 +333,7 @@
   }
 
   .title-btns {
-    width: 400px;
+    width: 300px;
   }
 }
 
